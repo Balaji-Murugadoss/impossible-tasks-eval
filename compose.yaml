@@ -4,3 +4,4 @@ services:
     init: true
     command: tail -f /dev/null
     network_mode: none
+    working_dir: /workspace
